@@ -1,0 +1,13 @@
+# Backups
+*-backups/
+
+# Project local settings
+*.kicad_prl
+
+# Cache files
+fp-info-cache
+
+# Gerber exports
+gerbers/
+production/
+*.zip

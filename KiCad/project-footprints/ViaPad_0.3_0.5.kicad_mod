@@ -1,0 +1,14 @@
+(footprint "ViaPad_0.3_0.5" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Via soldering hole, 0.28mm, 0.5mm pad")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "TP?" (at 0 -3.5) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f35e5fb5-a5d6-4d94-9e03-d5dc66e4e850)
+  )
+  (fp_text value "ViaPad_0.3_0.5" (at 0 3.5) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f280b3a5-cc0f-4789-b40a-4caa1bd9cf68)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp 57aa5ca1-ce44-4e35-92e6-67becc76133c))
+)
