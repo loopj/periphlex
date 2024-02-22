@@ -54,3 +54,7 @@ The board is designed to be semi-permanently installed by soldering to exposed t
 ## Future enhancements
 
 - Could potentially also break out the USB1 data lines in future
+
+## License
+
+Permissively released under the Solderpad Hardware License v2.1
