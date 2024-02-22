@@ -1,7 +1,7 @@
-<h1 align="center">
-    <img src="images/logo-black.svg#gh-light-mode-only" />
-    <img src="images/logo-white.svg#gh-dark-mode-only" />
-</h1>
+<p align="center">
+  <img src="images/logo-black.svg#gh-light-mode-only" />
+  <img src="images/logo-white.svg#gh-dark-mode-only" />
+</p>
 
 <h4 align="center">Flex PCB breakout for Bluetooth, USB, GameCube controller ports on trimmed Wii motherboards</h4>
 
@@ -18,14 +18,13 @@ The board is designed to be semi-permanently installed by soldering to exposed t
 ## Features
 
 - Solders directly to the top of a Wii motherboard
-- Fits cleanly underneath heatsinks/plates
+- 14-pin FFC low profile connector fits cleanly underneath heatsinks/plates
 - Breaks out frequently used peripheral lines
   - Bluetooth data
   - USB data
   - GameCube controller data (x4)
   - Reset GPIO (via magnet wire)
   - Soft shutdown GPIOs
-- 14-pin FFC low profile connector
 
 ## BOM / Ordering
 
@@ -54,4 +53,4 @@ The board is designed to be semi-permanently installed by soldering to exposed t
 
 ## Future enhancements
 
-- We could potentially also break out the USB1 data lines, but would need a bigger FFC connector
+- Could potentially also break out the USB1 data lines in future
