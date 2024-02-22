@@ -7,6 +7,12 @@
 # Cache files
 fp-info-cache
 
+# Autosave files
+_autosave-*
+
+# Lock files
+*.lck
+
 # Gerber exports
 gerbers/
 production/
