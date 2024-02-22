@@ -55,12 +55,22 @@ The board is designed to be semi-permanently installed by soldering to exposed t
 - Solder a magnet wire from the "S" pad to the `SHUTDOWN` GPIO via on the opposite side of the board
 - Test for continuity, and secure in place with CA glue or kapton tape
 
-## Tips
+## Installation tips
 
 - Remove any excess soldermask from the vias on the motherboard you'll be soldering to
 - Pre-tin the vias first
 - I like to tin the bottom of the corresponding vias on the flex
 - Use lots of flux
+
+## FFC Pinout
+
+| 1    | 2    | 3   | 4   | 5   | 6   | 7   | 8   | 9            | 10           | 11  | 12    | 13    | 14           |
+|------|------|-----|-----|-----|-----|-----|-----|--------------|--------------|-----|-------|-------|--------------|
+| USB- | USB+ | GND | GC4 | GC3 | GC2 | GC1 | GND | BT- (Data 2) | BT+ (Data 1) | GND | S Pad | R Pad | `POWER` GPIO |
+
+Pin 1 is the right-most pin on the FFC, indicated with a dot.
+
+Don't forget that these pin numbers will likely be reversed on the opposite end of your FFC cable, depending on the connector/cable you use.
 
 ## Future enhancements
 
