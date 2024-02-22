@@ -29,9 +29,10 @@ The board is designed to be semi-permanently installed by soldering to exposed t
 
 ## BOM / Ordering
 
+- Grab the Gerber files for the [latest release](https://github.com/loopj/periphlex/releases/latest)
 - Order a 2-layer, 0.5oz copper flex PCB from JLCPCB, PCBWay, Gold Phoenix, or similar
-- Purchase a Molex 503480-1400 connector
-- Don't forget to purchase a 14 pin, 0.5mm pitch FFC cable of desired length
+- Purchase a Molex 503480-1400 connector ([DigiKey](https://www.digikey.com/en/products/detail/molex/5034801400/2356626), [Mouser](https://www.mouser.com/ProductDetail/Molex/503480-1400?qs=bodV9ulq6GwpLFIuW65CfA%3D%3D))
+- Purchase a 14 pin, 0.5mm pitch FFC cable of desired length
 
 ## Installation
 
