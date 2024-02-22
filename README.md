@@ -39,19 +39,28 @@ The board is designed to be semi-permanently installed by soldering to exposed t
 - Solder the FFC connector to the flex PCB
 - Line up the 4 GameCube vias in the middle of the PCB with the GameCube vias on the front of the Wii motherboard, and tape into place
 - Mark the position of the holes for Bluetooth and USB using a fine sharpie through to the Wii motherboard
-- Remove the PCB and inspect the marks, they should be over the traces
+- Remove the flex and inspect the marks, they should be over the traces
 - Carefully expose the traces for Bluetooth and USB at the marked locations
   - Use a fine craft knife or dental pick to scratch the solder mask off the correct trace
   - Be careful to not expose the neighboring trace
   - Clean the exposed traces
-- Carefully remove any excess solder mask from the 4 GameCube vias, and the "soft power off" (*P*) via
 - Line up the PCB with the GameCube vias again and tape into place
-- Solder the 4 GameCube vias to the vias below
-- Solder the Bluetooth and USB vias to the traces below
-- Solder the "`POWER` GPIO" via (*P*) to the motherboard
+- Solder the following vias on the flex to the motherboard
+    - The four GameCube vias
+    - The Bluetooth and USB vias (to the exposed traces)
+    - The `POWER` GPIO via (*P*)
+    - The GND via at the top right of the "X" of the logo
+    - The GND via to the right of the connector
 - Solder a magnet wire from the "R" pad to the Reset via on the opposite side of the board
 - Solder a magnet wire from the "S" pad to the `SHUTDOWN` GPIO via on the opposite side of the board
 - Test for continuity, and secure in place with CA glue or kapton tape
+
+## Tips
+
+- Remove any excess soldermask from the vias on the motherboard you'll be soldering to
+- Pre-tin the vias first
+- I like to tin the bottom of the corresponding vias on the flex
+- Use lots of flux
 
 ## Future enhancements
 
