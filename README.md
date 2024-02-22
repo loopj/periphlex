@@ -19,6 +19,7 @@ The board is designed to be semi-permanently installed by soldering to exposed t
 
 - Solders directly to the top of a Wii motherboard
 - 14-pin FFC low profile connector fits cleanly underneath heatsinks/plates
+- Fits within the footprint of all but the most aggressive Wii trims
 - Breaks out frequently used peripheral lines
   - Bluetooth data
   - USB data
