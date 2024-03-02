@@ -698,20 +698,20 @@
 		(uuid "34d68225-1392-411f-b9a2-2a713fdfb662")
 	)
 	(junction
-		(at 130.81 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70c96466-d1a9-40cf-b783-b98d42a3932d")
-	)
-	(junction
 		(at 151.13 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c650d8cd-ab9f-4f0c-b3a2-134aebc79034")
 	)
+	(junction
+		(at 133.35 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4d1d3ef-c105-47da-bb1c-87a60436b16b")
+	)
 	(wire
 		(pts
-			(xy 118.745 129.54) (xy 130.81 129.54)
+			(xy 118.745 129.54) (xy 133.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -721,7 +721,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 107.95) (xy 130.81 107.95)
+			(xy 119.38 107.95) (xy 133.35 107.95)
 		)
 		(stroke
 			(width 0)
@@ -751,7 +751,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 115.57) (xy 130.81 115.57)
+			(xy 119.38 115.57) (xy 133.35 115.57)
 		)
 		(stroke
 			(width 0)
@@ -761,7 +761,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 77.47) (xy 130.81 77.47)
+			(xy 119.38 77.47) (xy 133.35 77.47)
 		)
 		(stroke
 			(width 0)
@@ -781,7 +781,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 130.81 96.52)
+			(xy 119.38 96.52) (xy 133.35 96.52)
 		)
 		(stroke
 			(width 0)
@@ -791,7 +791,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 85.09) (xy 130.81 85.09)
+			(xy 119.38 85.09) (xy 133.35 85.09)
 		)
 		(stroke
 			(width 0)
@@ -811,6 +811,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 134.62) (xy 133.35 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ab4ce2-feee-42ed-b850-b6fa1ebb37b4")
+	)
+	(wire
+		(pts
 			(xy 173.99 87.63) (xy 156.21 87.63)
 		)
 		(stroke
@@ -821,7 +831,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 100.33) (xy 130.81 100.33)
+			(xy 119.38 100.33) (xy 133.35 100.33)
 		)
 		(stroke
 			(width 0)
@@ -851,13 +861,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 130.81 88.9)
+			(xy 119.38 88.9) (xy 133.35 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "690dced3-8124-43a6-a4c9-38b5e10305f6")
+	)
+	(wire
+		(pts
+			(xy 118.745 133.35) (xy 133.35 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6caa24a5-c53e-41ad-8972-ba120dc74e9b")
 	)
 	(wire
 		(pts
@@ -871,7 +891,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 104.14) (xy 130.81 104.14)
+			(xy 119.38 104.14) (xy 133.35 104.14)
 		)
 		(stroke
 			(width 0)
@@ -901,7 +921,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 111.76) (xy 130.81 111.76)
+			(xy 119.38 111.76) (xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
@@ -931,7 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 81.28) (xy 130.81 81.28)
+			(xy 119.38 81.28) (xy 133.35 81.28)
 		)
 		(stroke
 			(width 0)
@@ -951,17 +971,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.745 133.35) (xy 130.81 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8debd12-7150-49d5-84e5-549f28254d80")
-	)
-	(wire
-		(pts
-			(xy 119.38 92.71) (xy 130.81 92.71)
+			(xy 119.38 92.71) (xy 133.35 92.71)
 		)
 		(stroke
 			(width 0)
@@ -991,7 +1001,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 129.54) (xy 130.81 133.35)
+			(xy 133.35 129.54) (xy 133.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1031,7 +1041,7 @@
 		(uuid "0c3110b9-514c-49f5-ada9-624007e3695f")
 	)
 	(label "GC4"
-		(at 130.81 85.09 180)
+		(at 133.35 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1052,8 +1062,8 @@
 		)
 		(uuid "111794f1-985f-4a8f-b092-0fd63091bcd7")
 	)
-	(label "S{slash}D"
-		(at 156.21 107.95 0)
+	(label "SHUTDOWN"
+		(at 156.21 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1064,7 +1074,7 @@
 		(uuid "26460cb6-a44f-4a8b-a710-eac92aef3c5b")
 	)
 	(label "GC2"
-		(at 130.81 92.71 180)
+		(at 133.35 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1075,7 +1085,7 @@
 		(uuid "2e6018c2-6bd8-459f-ade7-d6b65784c34e")
 	)
 	(label "USB-"
-		(at 130.81 77.47 180)
+		(at 133.35 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1086,7 +1096,7 @@
 		(uuid "510e20fd-a48e-49b6-ba22-ba6e86d3d6ae")
 	)
 	(label "GC3"
-		(at 130.81 88.9 180)
+		(at 133.35 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1107,8 +1117,8 @@
 		)
 		(uuid "5ba6ef2a-4e21-41d0-82db-f7ed5688aeff")
 	)
-	(label "S{slash}D"
-		(at 130.81 115.57 180)
+	(label "SHUTDOWN"
+		(at 133.35 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1118,8 +1128,8 @@
 		)
 		(uuid "5c7f93a1-2567-4add-83ba-5a3d8d23ff3d")
 	)
-	(label "RST"
-		(at 130.81 107.95 180)
+	(label "RESET"
+		(at 133.35 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1129,8 +1139,8 @@
 		)
 		(uuid "6f892dcf-ce3a-42cd-b5c5-80ddc607ef66")
 	)
-	(label "RST"
-		(at 156.21 110.49 0)
+	(label "RESET"
+		(at 156.21 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1141,7 +1151,7 @@
 		(uuid "7a80fd81-21af-45da-b948-51b8171c7229")
 	)
 	(label "BT+"
-		(at 130.81 104.14 180)
+		(at 133.35 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1152,7 +1162,7 @@
 		(uuid "7c9d3a3a-89c2-4747-9086-86e6e9702a07")
 	)
 	(label "USB+"
-		(at 130.81 81.28 180)
+		(at 133.35 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1163,7 +1173,7 @@
 		(uuid "916e3643-2c53-45a9-bde0-60f8eedd5eb9")
 	)
 	(label "GC1"
-		(at 130.81 96.52 180)
+		(at 133.35 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1173,7 +1183,7 @@
 		)
 		(uuid "a10f692a-462f-4742-a895-43bb4393f3bb")
 	)
-	(label "PWR"
+	(label "POWER"
 		(at 156.21 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1207,7 +1217,7 @@
 		(uuid "adcb0774-a07b-4796-9a81-815ddfe2b274")
 	)
 	(label "BT-"
-		(at 130.81 100.33 180)
+		(at 133.35 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1217,8 +1227,8 @@
 		)
 		(uuid "bb2472b4-4b1e-4d18-b826-10ad4e7280e1")
 	)
-	(label "PWR"
-		(at 130.81 111.76 180)
+	(label "POWER"
+		(at 133.35 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1338,7 +1348,7 @@
 			(uuid "cae3207b-1c4f-46b9-ae16-de433a68f80d")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP2")
 					(unit 1)
@@ -1423,7 +1433,7 @@
 			(uuid "706352ed-eadc-4bec-a863-721ae335261d")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP11")
 					(unit 1)
@@ -1508,7 +1518,7 @@
 			(uuid "667f9a13-614e-4aa5-84fc-b75563ac1581")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP12")
 					(unit 1)
@@ -1593,7 +1603,7 @@
 			(uuid "741826b6-9e05-41e3-b964-8736c3401271")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP7")
 					(unit 1)
@@ -1678,7 +1688,7 @@
 			(uuid "7552e6f6-3a9c-418d-bf08-3bb81412b1f7")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP1")
 					(unit 1)
@@ -1711,6 +1721,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1744,7 +1755,7 @@
 			(uuid "e4687a0a-7f78-4b22-bfa8-67d43c073ac9")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "#PWR01")
 					(unit 1)
@@ -1829,7 +1840,7 @@
 			(uuid "b57815d7-b28e-41d8-aef9-afaf3f7a1e23")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP6")
 					(unit 1)
@@ -1914,7 +1925,7 @@
 			(uuid "3e3bb053-3dab-4a0b-8151-399858699a24")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP4")
 					(unit 1)
@@ -1924,7 +1935,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 133.35 0)
+		(at 133.35 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1933,7 +1944,7 @@
 		(fields_autoplaced yes)
 		(uuid "663270d9-57b4-4a85-afd6-a4665f5f8185")
 		(property "Reference" "#PWR02"
-			(at 130.81 139.7 0)
+			(at 133.35 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,15 +1953,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 138.43 0)
+			(at 133.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 133.35 0)
+			(at 133.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +1971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 133.35 0)
+			(at 133.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +1980,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 133.35 0)
+			(at 133.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1992,7 @@
 			(uuid "edbe2ae8-c97a-4a1d-9244-8994816addde")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "#PWR02")
 					(unit 1)
@@ -2065,7 +2077,7 @@
 			(uuid "74a939c2-0738-4f2d-9e6a-8e8fb4c96b30")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP10")
 					(unit 1)
@@ -2081,24 +2093,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "829fda4b-6371-4a85-8053-c435f6cf9b4d")
 		(property "Reference" "J1"
-			(at 182.245 96.5199 0)
+			(at 182.245 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "5034801400"
 			(at 185.42 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "project-footprints:5034801400"
@@ -2189,7 +2198,7 @@
 			(uuid "b9cd064e-5a2c-47bc-8f66-b67ca5a0afd7")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "J1")
 					(unit 1)
@@ -2274,7 +2283,7 @@
 			(uuid "3ed58a82-5ad0-456c-91ff-c7b1e1bf09d2")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP3")
 					(unit 1)
@@ -2359,7 +2368,7 @@
 			(uuid "4269d9c8-0327-4621-8958-61c81b81acea")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP8")
 					(unit 1)
@@ -2444,7 +2453,7 @@
 			(uuid "e6c9009e-53e1-458d-bb16-056d6c920d17")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP5")
 					(unit 1)
@@ -2529,7 +2538,7 @@
 			(uuid "d168820e-8703-4650-9ae4-2d4770b71d3c")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP9")
 					(unit 1)
@@ -2614,7 +2623,7 @@
 			(uuid "ef57a63a-9fbe-431a-a3b5-6ec4f5066fca")
 		)
 		(instances
-			(project "wii-peripheral-flex"
+			(project "periphlex"
 				(path "/b8879ac1-19e5-471c-81b5-561e601c2849"
 					(reference "TP13")
 					(unit 1)
